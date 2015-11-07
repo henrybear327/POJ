@@ -1,0 +1,16 @@
+*.swp
+
+*.o
+
+*.c.orig
+*.cpp.orig
+
+makefile~
+
+*.cpp~
+*.txt~
+*.in~
+*.out~
+*.c~
+*.gitignore~
+*.md~
