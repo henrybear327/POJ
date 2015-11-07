@@ -1,3 +1,6 @@
+/*
+Pure KMP problem
+*/
 #include <cstdio>
 #include <cstring>
 
