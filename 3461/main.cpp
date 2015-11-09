@@ -36,17 +36,19 @@ int KMP()
 
     int pidx = 0;
     for (int i = 0; i < slen; i++) {
+        int skip = 0;
         while (p[pidx] == s[i] && i < slen) {
             if (pidx == plen - 1) {
                 cnt++;
                 pidx = f[pidx];
+                skip = 1;
                 break;
             }
             pidx++;
             i++;
         }
 
-        if (pidx != 0) {
+        if (pidx != 0 && skip == 0) {
             pidx = f[pidx - 1];
             i--;
         }
