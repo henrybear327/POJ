@@ -7,10 +7,5 @@
 
 makefile~
 
-*.cpp~
-*.txt~
-*.in~
-*.out~
-*.c~
-*.gitignore~
-*.md~
+*.*~
+
