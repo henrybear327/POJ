@@ -23,10 +23,10 @@ int main()
             cnt++;
             // find right-most point from left
             int j = i;
-            while (j < n && pos[j + 1] - pos[i] <= R)
+            while (j < n && pos[j + 1] - pos[i] <= R) // pos[j + 1]!! Good job!
                 j++;
             i = j;
-	    // find right-most point from center
+            // find right-most point from center
             while (j < n && pos[j + 1] - pos[i] <= R)
                 j++;
             i = j + 1;
